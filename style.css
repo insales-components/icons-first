@@ -16,13 +16,24 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-envelope:before {
+  content: "\e95b";
+}
+.icon-trash:before {
+  content: "\e915";
+}
+.icon-cart:before {
+  content: "\e956";
+}
+.icon-open-computer-folder:before {
+  content: "\e936";
+}
 .icon-clock:before {
   content: "\e91b";
 }
@@ -44,11 +55,8 @@
 .icon-map-marker:before {
   content: "\e95c";
 }
-.icon-cart:before {
-  content: "\e94e";
-}
 .icon-shopping-cart:before {
-  content: "\e95b";
+  content: "\e94e";
 }
 .icon-calendar:before {
   content: "\e95a";
@@ -132,7 +140,7 @@
   content: "\e935";
 }
 .icon-folder-open:before {
-  content: "\e936";
+  content: "\e938";
 }
 .icon-filter:before {
   content: "\e937";
@@ -215,9 +223,6 @@
 .icon-info:before {
   content: "\e955";
 }
-.icon-envelope:before {
-  content: "\e956";
-}
 .icon-plus-circle:before {
   content: "\e918";
 }
@@ -283,9 +288,6 @@
 }
 .icon-arrow-right:before {
   content: "\e914";
-}
-.icon-trash:before {
-  content: "\e915";
 }
 .icon-minus:before {
   content: "\e916";
